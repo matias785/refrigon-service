@@ -18,7 +18,8 @@
 
 img {
   display: flex;
-  width: 100%;
+  width: 5rem;
+  border-radius: 50px;
 }
 
 a {
@@ -51,17 +52,6 @@ nav {
   color: var(--primary-color);
 }
 
-.nav__logo div {
-  width: auto;
-  aspect-ratio: 1;
-  display: grid;
-  place-content: center;
-  font-size: 1.5rem;
-  line-height: 1rem;
-  color: var(--white);
-  background-color: var(--primary-color);
-  border-radius: 100%;
-}
 
 
 .nav__socials {

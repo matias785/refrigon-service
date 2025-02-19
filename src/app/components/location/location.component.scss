@@ -1,0 +1,40 @@
+
+
+.main {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.section {
+  height: 25rem;
+  width: 90%;
+  border: 1px solid #ccc;
+  box-shadow: 3px -2px #1b3a7b3d;
+
+  img {
+      width: 100%;
+      height: auto;
+  }
+}
+
+.datos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 1rem;
+  background-color: #6eb0ec14;
+}
+
+h1 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 3rem;
+  color: var(--text-dark);
+}
+
+.bold {
+  font-weight: 700;
+  color: var(--primary-color);
+}
