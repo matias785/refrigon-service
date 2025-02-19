@@ -5,7 +5,7 @@
   --text-dark: #6eb0ec;
   --text-light: #6b7280;
   --white: #ffffff;
-  --primary-color-dark: #db6f35;
+  --primary-color-dark: #25d366;
   --max-width: 1200px;
   --header-font: "Bebas Neue", sans-serif;
 }
@@ -137,7 +137,7 @@ nav {
   background-position: center center;
   background-repeat: no-repeat;
   border-radius: 100%;
-  opacity: 0.5;
+  opacity: 0.9;
   z-index: -1;
 }
 
@@ -169,26 +169,26 @@ nav {
 }
 
 .header__image__card-1 {
-  top: 25%;
-  left: 0;
+  top: -178%;
+  left: 28%;
   transform: translate(-50%, -50%);
 }
 
 .header__image__card-2 {
-  top: 10%;
-  right: 2rem;
+  top: -42%;
+    right: 2rem;
   transform: translateY(-50%);
 }
 
 .header__image__card-3 {
-  top: 60%;
-  left: 0;
+  top: 278%;
+  left: 30%;
   transform: translateY(-50%);
 }
 
 .header__image__card-4 {
   top: 70%;
-  right: 0;
+  right: 52%;
   transform: translateY(-50%);
 }
 
@@ -291,6 +291,15 @@ nav {
   font-size: 0.9rem;
   color: var(--text-light);
   text-align: center;
+}
+
+.body_container{
+  max-width: var(--max-width);
+  margin: auto;
+  padding-block: 0rem 2rem;
+  padding-inline: 1rem;
+  gap: 2rem;
+  overflow-x: hidden;
 }
 
 @media (width > 540px) {

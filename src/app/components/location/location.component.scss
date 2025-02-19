@@ -8,9 +8,8 @@
 
 .section {
   height: 25rem;
-  width: 90%;
-  border: 1px solid #ccc;
-  box-shadow: 3px -2px #1b3a7b3d;
+  border-radius: calc(1rem + 10px);
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
 
   img {
       width: 100%;
