@@ -1,0 +1,17 @@
+<div class="main generic-boder shadow-mian" [ngStyle]="{'flex-direction': section.reverse ? 'row-reverse' : 'row'}">
+  <div class="section" style="width: 65%;">
+    <img class="img-section" [src]="section.imgUrl" alt="Description Image" />
+  </div>
+  <div class="section-text" style="width: 35%;">
+    <h1 class="title" style="text-align: center;">
+      {{section.title}}
+    </h1>
+    <div class="list">
+      <ul>
+        <li *ngFor="let attribute of section.attributes">{{attribute}}</li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+

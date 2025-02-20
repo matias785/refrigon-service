@@ -56,26 +56,32 @@
     <form action="/">
       <div class="row">
         <div class="">
-            <p class="text-contact">Brindamos atencion personalizada</p>
+          <p class="text-contact">Brindamos atencion personalizada</p>
         </div>
       </div>
-      <button type="submit"><i class="ri-whatsapp-fill"></i> Contactanos</button>
+      <button type="submit">
+        <i class="ri-whatsapp-fill"></i> Contactanos
+      </button>
     </form>
   </div>
   <app-location></app-location>
   <app-map style="height: 100%"></app-map>
-
-
-
-
-
 </header>
 
-
 <div class="body_container">
-  <img style="height: 100%; width: 100%;" src="local-frente.avif" alt="">
+  <img
+    style="
+      height: 100%;
+      width: 100%;
+      box-shadow: 5px 5px 20px rgba(0 0 0 / 57%);
+    "
+    src="local-frente.avif"
+    alt=""
+  />
 
+  <ng-container *ngFor="let section of seccions">
+    <app-seccion [section]="section"> </app-seccion>
+  </ng-container>
 
   <div class="bar">Copyright © 2025 mep_codedev All rights reserved.</div>
 </div>
-

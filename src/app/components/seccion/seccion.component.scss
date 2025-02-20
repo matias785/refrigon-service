@@ -1,0 +1,33 @@
+
+
+.generic-boder {
+  border: 1px solid #000;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  margin: 20px 0;
+}
+
+
+.img-section {
+  width: 100%;
+  height: auto;
+  border-radius: 0%;
+}
+
+.list {
+  display: flex;
+  justify-self: center;
+}
+
+.title {
+  color: var(--text-dark)
+}
+
+.section-text {
+  padding-top: 2rem;
+}
