@@ -50,55 +50,7 @@ export class AppComponent {
       'Reparación de placa',
       'Cambio de bomba inversora',
       'Mantenimiento']
-  },{
-    title: 'Aires Acondicionados',
-    reverse: false,
-    imgUrl: 'https://static.wixstatic.com/media/b89f56c31bcf49db901274a6845755e7.jpg/v1/fill/w_554,h_300,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/b89f56c31bcf49db901274a6845755e7.jpg',
-  attributes: ['Cambio de magnetron',
-    'Instalaciones de aire frío calor',
-    'Carga de gas',
-    'Cambio de motor',
-    'Reparación de placa',
-    'Cambio de bomba inversora',
-    'Mantenimiento']
-},
-{
-  title: 'Aires Acondicionados',
-  reverse: false,
-  imgUrl: 'https://static.wixstatic.com/media/b89f56c31bcf49db901274a6845755e7.jpg/v1/fill/w_554,h_300,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/b89f56c31bcf49db901274a6845755e7.jpg',
-attributes: ['Cambio de magnetron',
-  'Instalaciones de aire frío calor',
-  'Carga de gas',
-  'Cambio de motor',
-  'Reparación de placa',
-  'Cambio de bomba inversora',
-  'Mantenimiento']
-},
-{
-  title: 'Aires Acondicionados',
-  reverse: false,
-  imgUrl: 'https://static.wixstatic.com/media/b89f56c31bcf49db901274a6845755e7.jpg/v1/fill/w_554,h_300,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/b89f56c31bcf49db901274a6845755e7.jpg',
-attributes: ['Cambio de magnetron',
-  'Instalaciones de aire frío calor',
-  'Carga de gas',
-  'Cambio de motor',
-  'Reparación de placa',
-  'Cambio de bomba inversora',
-  'Mantenimiento']
-},
-{
-  title: 'Aires Acondicionados',
-  reverse: false,
-  imgUrl: 'https://static.wixstatic.com/media/b89f56c31bcf49db901274a6845755e7.jpg/v1/fill/w_554,h_300,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/b89f56c31bcf49db901274a6845755e7.jpg',
-attributes: ['Cambio de magnetron',
-  'Instalaciones de aire frío calor',
-  'Carga de gas',
-  'Cambio de motor',
-  'Reparación de placa',
-  'Cambio de bomba inversora',
-  'Mantenimiento']
-},
-
+  },
 ];
 
   mensajeWhatApp?: string = environment.mensajeWhatApp;
